@@ -13,14 +13,14 @@ for (d = '0'; d < '9'; d++)
 {
 	for (p = d + 1; p <= '9'; p++)
 	{
-		for (m = p + 1; m <='9'; m++)
+		for (m = p + 1; m <= '9'; m++)
 		{
-			if ((p !=d) !=m)
+			if ((p != d) != m)
 			{
 				putchar(d);
 				putchar(p);
 				putchar(m);
-				if (d == '7' && p =='8')
+				if (d == '7' && p == '8')
 					continue;
 				putchar(',');
 				putchar(' ');
