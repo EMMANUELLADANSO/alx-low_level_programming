@@ -1,12 +1,13 @@
 #include "main.h"
 /**
+ * int _islower(int c) - return 1 if is lowercase
  * main - Entry point
  * Description: 'prints _putchar to stdout'
  * Return: always 0
  */
-int -islower(int c)
+int _islower(int c)
 {
-	if (c <= 97; && c <= 122)
+	if (c <= 97 && c <= 122)
 	{
 		return (1);
 	}
@@ -14,5 +15,5 @@ int -islower(int c)
 	{
 		return(0);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
