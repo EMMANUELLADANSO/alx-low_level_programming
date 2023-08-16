@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * print_alphabet_x10 - Make the alphabet x10
  * main - Entry point
  * Description: 'prints _putchar to stdout'
- * Return: always 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -18,5 +19,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
