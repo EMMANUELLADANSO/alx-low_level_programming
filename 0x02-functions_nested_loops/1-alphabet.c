@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
+ * print_alphabet - Make the alphabet
  * main - Entry point
  * Description: 'prints _putchar to stdout'
- * Return: always returns 0
+ * Return: void
  */
+
 void print_alphabet(void)
 
 {
