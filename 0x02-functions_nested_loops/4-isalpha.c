@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _isalpha.c - Make lowercase, uppercase
+ * _isalpha - Make lowercase, uppercase
  * main - Entry point
  * Description: 'prints _putchar to stdout'
  * Return: always 0
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 || c <= 122) || (c >= 65 || c <= 90) || (c >= 33 || c <= 64))
+	if (c >= 33 && c <= 122)
 	{
 		return (1);
 	}
