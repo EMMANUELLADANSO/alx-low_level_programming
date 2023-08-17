@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_islower(int c) - return something if is lowercase
+ * islower.c - return something if is lowercase
  * main - Entry point
  * Description: 'prints _putchar to stdout'
  * Return: always 0
