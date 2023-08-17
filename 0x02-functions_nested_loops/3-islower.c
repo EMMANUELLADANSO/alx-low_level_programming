@@ -3,7 +3,7 @@
  * _islower - return something if is lowercase
  * main - Entry point
  * Description: 'prints _putchar to stdout'
- * Return: always 0
+ * Return: 1 for lowercase and 0 for anything else
  */
 int _islower(int c)
 {
